@@ -1,0 +1,134 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*, *::after, *::before{
+margin: 0;
+border: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.wrapper{
+    background-image: url("img/ava7patterns_wallpaper_240x320_1282.png");
+    font-family: 'Times New Roman', Times, serif
+}
+
+header{
+    height: 40px;
+    background-color: blueviolet;
+}
+
+.name{
+    font-family: 'Lobster', cursive;
+    font-weight: 600;
+    font-size: 25px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.start{
+    margin: 15px 10px;
+    text-indent: 20pt;
+}
+
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.863);
+    /* background-image: url("/img/sm1.png");
+    background-repeat: no-repeat;
+    background-size: 4%;
+    background-position: 90% center; */
+
+}
+
+.list{
+    margin: 5pt;
+}
+
+li{
+    background-color: rgb(175, 176, 255);
+    padding: 3px 10px;
+    display: inline-block;
+    font-weight: 600;
+    border-color: blueviolet;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: ridge;
+    text-align: center;
+    color: rgb(116, 0, 184);
+}
+
+li:hover{
+    background-color: rgb(163, 138, 253);
+    transition: 0.4s;
+    color: blue;
+}
+
+.text{
+    width: 500px;
+    margin: 0 auto;    
+}
+
+h2{
+    margin: 5pt 0;
+    text-align: center;
+    color: rgba(17, 0, 255, 0.863);
+}
+
+h2:nth-child(2n){
+    text-align: left;
+    color: red;
+    border-width: 2px;
+    border-style: dotted;
+}
+
+h2:nth-child(2n+1){
+    text-align: right;
+    border-width: 2px;
+    border-color: blue;
+    border-style: dotted;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20pt;
+    margin: 5pt;
+}
+
+footer{
+    height: 40px;
+    background-color: blueviolet;
+}
+
+.name2{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.up{
+    margin: 25px;
+    line-height: 40pt;
+}
+
